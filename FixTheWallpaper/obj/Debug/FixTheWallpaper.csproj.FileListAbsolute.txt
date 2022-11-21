@@ -1,0 +1,11 @@
+C:\Users\Banana\Desktop\MyWork\Windows Form\FixTheWallpaper\FixTheWallpaper\bin\Debug\FixTheWallpaper.exe.config
+C:\Users\Banana\Desktop\MyWork\Windows Form\FixTheWallpaper\FixTheWallpaper\bin\Debug\FixTheWallpaper.exe
+C:\Users\Banana\Desktop\MyWork\Windows Form\FixTheWallpaper\FixTheWallpaper\bin\Debug\FixTheWallpaper.pdb
+C:\Users\Banana\Desktop\MyWork\Windows Form\FixTheWallpaper\FixTheWallpaper\obj\Debug\FixTheWallpaper.csproj.AssemblyReference.cache
+C:\Users\Banana\Desktop\MyWork\Windows Form\FixTheWallpaper\FixTheWallpaper\obj\Debug\FixTheWallpaper.csproj.SuggestedBindingRedirects.cache
+C:\Users\Banana\Desktop\MyWork\Windows Form\FixTheWallpaper\FixTheWallpaper\obj\Debug\FixTheWallpaper.Main.resources
+C:\Users\Banana\Desktop\MyWork\Windows Form\FixTheWallpaper\FixTheWallpaper\obj\Debug\FixTheWallpaper.Properties.Resources.resources
+C:\Users\Banana\Desktop\MyWork\Windows Form\FixTheWallpaper\FixTheWallpaper\obj\Debug\FixTheWallpaper.csproj.GenerateResource.cache
+C:\Users\Banana\Desktop\MyWork\Windows Form\FixTheWallpaper\FixTheWallpaper\obj\Debug\FixTheWallpaper.csproj.CoreCompileInputs.cache
+C:\Users\Banana\Desktop\MyWork\Windows Form\FixTheWallpaper\FixTheWallpaper\obj\Debug\FixTheWallpaper.exe
+C:\Users\Banana\Desktop\MyWork\Windows Form\FixTheWallpaper\FixTheWallpaper\obj\Debug\FixTheWallpaper.pdb
