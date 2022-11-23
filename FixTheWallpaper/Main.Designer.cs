@@ -23,18 +23,19 @@
         /// 이 메서드의 내용을 코드 편집기로 수정하지 마세요.
         /// </summary>
         private void InitializeComponent() {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.statusLbl = new System.Windows.Forms.Label();
             this.wallpaperBox = new System.Windows.Forms.PictureBox();
             this.wallpaperGroup = new System.Windows.Forms.GroupBox();
+            this.getDefaultWallpaperBtn = new System.Windows.Forms.Button();
             this.lockScreenGroup = new System.Windows.Forms.GroupBox();
+            this.getDefaultLockScreenBtn = new System.Windows.Forms.Button();
             this.lockScreenBox = new System.Windows.Forms.PictureBox();
             this.fixBtn = new System.Windows.Forms.Button();
             this.unFixBtn = new System.Windows.Forms.Button();
-            this.getDefaultWallpaperBtn = new System.Windows.Forms.Button();
-            this.getDefaultLockScreenBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.wallpaperBox)).BeginInit();
             this.wallpaperGroup.SuspendLayout();
             this.lockScreenGroup.SuspendLayout();
@@ -101,6 +102,16 @@
             this.wallpaperGroup.TabStop = false;
             this.wallpaperGroup.Text = "바탕화면";
             // 
+            // getDefaultWallpaperBtn
+            // 
+            this.getDefaultWallpaperBtn.Location = new System.Drawing.Point(6, 208);
+            this.getDefaultWallpaperBtn.Name = "getDefaultWallpaperBtn";
+            this.getDefaultWallpaperBtn.Size = new System.Drawing.Size(323, 23);
+            this.getDefaultWallpaperBtn.TabIndex = 10;
+            this.getDefaultWallpaperBtn.Text = "기본 바탕화면";
+            this.getDefaultWallpaperBtn.UseVisualStyleBackColor = true;
+            this.getDefaultWallpaperBtn.Click += new System.EventHandler(this.getDefaultWallpaperBtn_Click);
+            // 
             // lockScreenGroup
             // 
             this.lockScreenGroup.Controls.Add(this.getDefaultLockScreenBtn);
@@ -111,6 +122,16 @@
             this.lockScreenGroup.TabIndex = 11;
             this.lockScreenGroup.TabStop = false;
             this.lockScreenGroup.Text = "잠금화면";
+            // 
+            // getDefaultLockScreenBtn
+            // 
+            this.getDefaultLockScreenBtn.Location = new System.Drawing.Point(6, 208);
+            this.getDefaultLockScreenBtn.Name = "getDefaultLockScreenBtn";
+            this.getDefaultLockScreenBtn.Size = new System.Drawing.Size(323, 23);
+            this.getDefaultLockScreenBtn.TabIndex = 11;
+            this.getDefaultLockScreenBtn.Text = "기본 잠금화면";
+            this.getDefaultLockScreenBtn.UseVisualStyleBackColor = true;
+            this.getDefaultLockScreenBtn.Click += new System.EventHandler(this.getDefaultLockScreenBtn_Click);
             // 
             // lockScreenBox
             // 
@@ -141,26 +162,6 @@
             this.unFixBtn.UseVisualStyleBackColor = true;
             this.unFixBtn.Click += new System.EventHandler(this.unFixBtn_Click);
             // 
-            // getDefaultWallpaperBtn
-            // 
-            this.getDefaultWallpaperBtn.Location = new System.Drawing.Point(6, 208);
-            this.getDefaultWallpaperBtn.Name = "getDefaultWallpaperBtn";
-            this.getDefaultWallpaperBtn.Size = new System.Drawing.Size(323, 23);
-            this.getDefaultWallpaperBtn.TabIndex = 10;
-            this.getDefaultWallpaperBtn.Text = "기본 바탕화면";
-            this.getDefaultWallpaperBtn.UseVisualStyleBackColor = true;
-            this.getDefaultWallpaperBtn.Click += new System.EventHandler(this.getDefaultWallpaperBtn_Click);
-            // 
-            // getDefaultLockScreenBtn
-            // 
-            this.getDefaultLockScreenBtn.Location = new System.Drawing.Point(6, 208);
-            this.getDefaultLockScreenBtn.Name = "getDefaultLockScreenBtn";
-            this.getDefaultLockScreenBtn.Size = new System.Drawing.Size(323, 23);
-            this.getDefaultLockScreenBtn.TabIndex = 11;
-            this.getDefaultLockScreenBtn.Text = "기본 잠금화면";
-            this.getDefaultLockScreenBtn.UseVisualStyleBackColor = true;
-            this.getDefaultLockScreenBtn.Click += new System.EventHandler(this.getDefaultLockScreenBtn_Click);
-            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -176,6 +177,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("맑은 고딕", 9F);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
